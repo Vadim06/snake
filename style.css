@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(62, 59, 59);
+}
+
+canvas {
+  border: 4px ridge orange;
+  display: block;
+  margin: 0 auto;
+}
