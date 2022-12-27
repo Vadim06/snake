@@ -78,10 +78,10 @@ class Snake {
   }
   hitCheck() {
     if (
-      this.head.column >= gm.colsInRow ||
-      this.head.column <= 0 ||
-      this.head.row >= gm.rowsInCol ||
-      this.head.row <= 0
+      this.head.column > gm.colsInRow ||
+      this.head.column < 0 ||
+      this.head.row > gm.rowsInCol ||
+      this.head.row < 0
     ) {
       gm.stopGame();
     }
